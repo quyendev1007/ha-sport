@@ -74,6 +74,7 @@ body {
 }
 
 .header-icons img {
+  width: 2.5rem;
   cursor: pointer;
 }
 
@@ -261,6 +262,21 @@ body {
 }
 
 @media (max-width: 1640px) {
+  .header-container {
+    height: 6.5rem;
+  }
+
+  .nav a {
+    font-size: 1.1rem;
+  }
+  .logo {
+    width: 7rem;
+    height: 3.5rem;
+  }
+  .header-icons img {
+    width: 2rem;
+  }
+
   .mega-menu-left li {
     font-size: 0.9rem;
     padding: 1rem 0.4rem;
