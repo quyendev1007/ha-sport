@@ -260,7 +260,7 @@ body {
   padding: 1.25rem 0;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1640px) {
   .mega-menu-left li {
     font-size: 0.9rem;
     padding: 1rem 0.4rem;
@@ -276,6 +276,10 @@ body {
     font-size: 2.5rem;
     letter-spacing: 0.05rem;
     line-height: 1.2;
+  }
+
+  .hero-right img {
+    width: 50rem;
   }
 
   .mega-menu-right .item img {
