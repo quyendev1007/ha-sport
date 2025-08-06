@@ -291,11 +291,11 @@ body {
     font-weight: 300;
     font-size: 2.5rem;
     letter-spacing: 0.05rem;
-    line-height: 1.2;
+    line-height: 1.5;
   }
 
   .hero-right img {
-    width: 50rem;
+    width: 45rem;
   }
 
   .mega-menu-right .item img {
