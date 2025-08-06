@@ -295,7 +295,11 @@ body {
   }
 
   .hero-right img {
-    width: 45rem;
+    width: 50rem;
+  }
+
+  .mega-menu {
+    top: 70%;
   }
 
   .mega-menu-right .item img {
