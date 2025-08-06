@@ -120,12 +120,14 @@ body {
   justify-content: space-between;
   font-size: 1rem;
   cursor: pointer;
-  border-bottom: 1px solid #cdcdcd;
+  border-bottom: 0.06rem solid #cdcdcd;
 }
 
 .mega-menu-right {
   flex: 3;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   gap: 1.25rem;
 }
 
@@ -256,4 +258,28 @@ body {
   display: flex;
   justify-content: end;
   padding: 1.25rem 0;
+}
+
+@media (max-width: 1440px) {
+  .mega-menu-left li {
+    font-size: 0.9rem;
+    padding: 1rem 0.4rem;
+    padding-left: 1rem;
+  }
+
+  .hero-left .number {
+    font-size: 20rem;
+  }
+
+  .hero-left .content h1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    letter-spacing: 0.05rem;
+    line-height: 1.2;
+  }
+
+  .mega-menu-right .item img {
+    width: 10rem;
+    height: 10rem;
+  }
 }
