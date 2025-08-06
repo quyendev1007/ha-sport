@@ -6,7 +6,7 @@
 
 body {
   font-family: "Arial", sans-serif;
-  font-size: 16px; /* Base size = 1rem */
+  font-size: 16px;
 }
 
 /* common */
@@ -153,7 +153,6 @@ body {
   padding: 2.5rem 1.5625rem;
   border-right: 0.125rem #fff solid;
   width: 9.4375rem;
-  height: calc(100vh - 7.8125rem);
 }
 
 .rotate {
@@ -177,7 +176,6 @@ body {
 /* hero banner */
 .hero {
   background-color: #07272e;
-  height: calc(100vh - 7.8125rem);
   width: 100%;
   padding: 0 6.125rem;
 }
@@ -251,7 +249,7 @@ body {
 .hero-bottom {
   display: flex;
   justify-content: end;
-  padding-top: 1.25rem;
+  padding: 1.25rem 0;
 }
 
 /* Responsive */
